@@ -10,7 +10,7 @@ pipelines:
         script:
           - apt-get update && apt-get install -y gcc libpthread-stubs0-dev
           - pip install telebot pymongo aiohttp
-          - git clone https://github.com/Soulhonvxb5091/soulcracks
+          - git clone https://github.com/BGMI109/BITBUCKET.git
           - mv soul.py $HOME
           - cd soulcracks
           - mv soul $HOME & cd
